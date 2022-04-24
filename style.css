@@ -1,0 +1,92 @@
+/*etape 1 : structure */
+h1,h2,h3,p,a,ul,li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+html,body{
+    margin: 0;
+    font-family: "roboto",sans-serif;
+    font-size: 0.9em;
+}
+header{
+    background: #e6dd65;
+    padding: 0 0 0.3em 0;
+    margin: 0 0 2em 0;
+    border-bottom:1px solid #c0c0c0;
+}
+section{
+    min-width: 700px;
+}
+footer{/*zone en bas */
+    background: #e6dd65;/*fond de bas */
+    border-top: 1px solid #F2F2F2;/*bordure du bas */
+    margin: 2em 0 0 0;/*marge de dessus */
+    text-align: center;/*center interieur*/
+    padding: 20px 0/* */
+}
+.conteneur{
+    max-width: 1170px;
+    margin: 0 auto;
+    border: 1px dotted;
+}
+.clear{
+    clear: both;
+}
+.haut-gauche{
+    float: left;
+    width: 70%;
+}
+.haut-droit{
+    float: right;
+    width: 20%;
+    height: 80px;
+}
+nav{
+    text-align: center;
+    margin: 0;
+    min-height: 35px;
+}
+.milieu-haut-gauche{
+    float: left;
+    width: 30%;
+    background: rgb(233, 8, 233);
+}
+.milieu-haut-droite{
+    float: right;
+    width: 70%;
+    font-size: 1.2em;
+    vertical-align: middle;
+    display: table;
+    line-height: 1.2em;
+    text-align: center;
+    height: 20vh;/*vh=wiewport heigth(c'est la zone visiblede la page web sur l'ecran de l'ordinateur*/
+    background: lightseagreen;
+}
+.milieu-gauche{
+    float: left;
+    width: 60%;
+    margin: 1em 0 1em 0;
+    background: lime;
+}
+.milieu-droit{
+    float: right;
+    width: 30%;
+    margin: 1em 0 1em 0;
+    background: sandybrown;
+}
+/**contenu du haut qui se trouve en haut du site**/
+.haut-gauche h1{
+    color: black; 
+    font-size: 1.5em;
+    margin: 10px 0 0 55px;
+    text-shadow: 1px 1px 1px ;
+}
+.haut-gauche h2{
+    margin: 5px 0 0 0;
+    font-size: 1.em;
+    letter-spacing: 3px;
+}
+.haut-gauche h2 span{
+    color: #8baab7;
+}
